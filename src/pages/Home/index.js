@@ -22,5 +22,5 @@ export function Home() {
       <input type="text" value={addUser} onChange={(e) => setAddUser(e.target.value)}/>
       <button onClick={handleAddUser}>Entrar</button>
     </div>
-  );
+  )
 }

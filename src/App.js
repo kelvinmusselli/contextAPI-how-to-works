@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Welcome } from './pages/Welcome';
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Home } from './pages/Home'
+import { Welcome } from './pages/Welcome'
 import UserContextProvider from './contexts/userContext'
 
 function App() {
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
