@@ -4,9 +4,12 @@ import { userContext } from '../../contexts/userContext'
 
 
 export function Home() {
+
   const history = useHistory()
   const [addUser, setAddUser] = useState('')
+
   const { setUser } = useContext(userContext)
+
 
   const handleAddUser = () => {
     setUser(addUser)
